@@ -1,5 +1,6 @@
 import '../styles/Hero.css'
 import { useRef } from "react";
+import Beams from "./Beams";
 
 export default function Hero() {
   const scrollRef = useRef(null);
@@ -9,7 +10,23 @@ export default function Hero() {
   };
 
   return (
-      <div className="hero">
+    <div className="hero">
+
+      <div className="hero-bg">
+        <Beams
+          beamWidth={3}
+          beamHeight={30}
+          beamNumber={20}
+          lightColor="#ffffff"
+          speed={2}
+          noiseIntensity={1.75}
+          scale={0.2}
+          rotation={30}
+        />
+      </div>
+
+      {/* المحتوى */}
+      <div className="hero-content">
         <div className="hero-text">
           <h3 className="first-line">
             Hey, I'm
@@ -30,5 +47,7 @@ export default function Hero() {
           <div className="chevrons"></div>
         </div>
       </div>
+
+    </div>
   );
 }
