@@ -10,6 +10,7 @@
   font-size: 2rem;
   color: var(--p);
   margin-bottom: 3rem;
+  font-weight: 700;
 }
 
 .projects-grid {
