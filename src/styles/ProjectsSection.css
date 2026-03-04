@@ -2,6 +2,8 @@
   padding: 4rem 1.5rem;
   background-color: var(--bg);
   color: var(--t);
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .section-title {

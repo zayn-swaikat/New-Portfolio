@@ -86,7 +86,7 @@
 
 .btn-p:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(167, 139, 250, 0.3);
+    box-shadow: 0 8px 20px rgba(250, 226, 139, 0.3);
 }
 
 .btn-s {
