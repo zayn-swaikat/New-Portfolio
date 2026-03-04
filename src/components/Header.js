@@ -32,7 +32,7 @@ function Header() {
   return (
     <>
     {open && <div className="overlay" onClick={() => setOpen(false)}></div>}
-    <Navbar expand="lg" className={`navbar ${hidden ? "navbar-hidden" : ""}`} dir="rtl">
+    <Navbar expand="lg" className={`navbar ${hidden ? "navbar-hidden" : ""}`}>
       <Container>
         <Navbar.Brand as={Link} to="/">zayn</Navbar.Brand>
 
