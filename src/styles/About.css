@@ -82,20 +82,59 @@
 }
 
 .skill-item {
-  background: var(--bgs);
   padding: 1.2rem 1.4rem;
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.3s ease;
+  cursor: pointer;
+
+  background: linear-gradient(
+    115deg, 
+    var(--bgs) 0%, 
+    var(--bgs) 40%, 
+    #4d392f 50%,
+    var(--bgs) 60%, 
+    var(--bgs) 100%
+  );
+  background-size: 250% 250%;
+  animation: ambientShine 10s ease-in-out infinite;
+
   border: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden; 
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+              border-color 0.4s ease, 
+              box-shadow 0.4s ease;
+}
+
+.skill-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(213, 206, 163, 0.15),
+    transparent
+  );
+  transform: skewX(-25deg);
+  transition: 0.7s;
+  pointer-events: none;
 }
 
 .skill-item:hover {
   transform: translateY(-6px);
   border-color: var(--p);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4), 
+              0 0 10px rgba(213, 206, 163, 0.05);
+}
+
+.skill-item:hover::before {
+  left: 150%;
 }
 
 .skill-tag {
@@ -107,24 +146,23 @@
   letter-spacing: 0.5px;
 }
 
-/* Tag Variants */
 .skill-tag.frontend {
-  background: rgba(232, 211, 74, 0.3); /* شفاف لكن واضح على الخلفية الغامقة */
+  background: rgba(232, 211, 74, 0.3);
   color: var(--p);
 }
 
 .skill-tag.backend {
-  background: rgba(206, 142, 109, 0.4); /* خلفية ثانية شديدة التباين شوي */
-  color: var(--p); /* محتفظين بالـ primary للنص */
+  background: rgba(206, 142, 109, 0.4);
+  color: var(--p);
 }
 
 .skill-tag.programming {
-  background: rgba(245, 226, 122, 0.5); /* accent أصفر مشرق للفت الانتباه */
+  background: rgba(245, 226, 122, 0.5);
   color: var(--t);
 }
 
 .skill-tag.tools {
-  background: rgba(237, 207, 155, 0.35); /* نصوص واضحة لكن أخف من الـ bg */
+  background: rgba(237, 207, 155, 0.35);
   color: var(--s);
 }
 

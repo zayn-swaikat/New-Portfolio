@@ -51,7 +51,8 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav" in={open}>
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/" className='first-link' onClick={() => setOpen(false)}>Home</Nav.Link>
-            <Nav.Link as={Link} to="/projects" onClick={() => setOpen(false)}>الإعلانات</Nav.Link>
+            <Nav.Link as={Link} to="/skills" onClick={() => setOpen(false)}>Skills</Nav.Link>
+            <Nav.Link as={Link} to="/projects" onClick={() => setOpen(false)}>Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
 
