@@ -68,8 +68,8 @@
 .filters button.active {
   background: linear-gradient(90deg, var(--p), var(--s));
   border: none;
-  color: white;
-  box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
+  color: var(--bgs);
+  box-shadow: 0 0 20px rgba(237, 219, 58, 0.4);
 }
 
 .skills {
