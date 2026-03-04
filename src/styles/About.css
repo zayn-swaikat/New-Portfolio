@@ -108,22 +108,22 @@
 
 /* Tag Variants */
 .skill-tag.frontend {
-  background: rgba(213, 206, 163, 0.5); /* نفس --p لكن شفاف */
+  background: rgba(232, 211, 74, 0.3); /* شفاف لكن واضح على الخلفية الغامقة */
   color: var(--p);
 }
 
 .skill-tag.backend {
-  background: rgba(26, 18, 11, 0.45); /* نفس --bgs لكن شفاف */
-  color: var(--p);
+  background: rgba(206, 142, 109, 0.4); /* خلفية ثانية شديدة التباين شوي */
+  color: var(--p); /* محتفظين بالـ primary للنص */
 }
 
 .skill-tag.programming {
-  background: rgba(245, 158, 11, 0.5); /* ممكن نحتفظ بالـ accent الأصفر */
-  color: var(--a);
+  background: rgba(245, 226, 122, 0.5); /* accent أصفر مشرق للفت الانتباه */
+  color: var(--t);
 }
 
 .skill-tag.tools {
-  background: rgba(229, 229, 203, 0.5); /* نفس --s لكن أفتح */
+  background: rgba(237, 207, 155, 0.35); /* نصوص واضحة لكن أخف من الـ bg */
   color: var(--s);
 }
 
