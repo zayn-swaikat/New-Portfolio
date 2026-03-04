@@ -39,7 +39,7 @@
     120deg,
     var(--p),
     var(--s),
-    rgba(228, 197, 255, 0.775),
+    #E5E5CB,
     var(--s),
     var(--p)
   );
@@ -81,7 +81,7 @@
 
 .btn-p {
     background: linear-gradient(90deg, var(--p), var(--s));
-    color: var(--t);
+    color: var(--bgs);
 }
 
 .btn-p:hover {
