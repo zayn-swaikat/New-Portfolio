@@ -38,7 +38,7 @@
     120deg,
     var(--a),
     var(--p),
-    #E5E5CB,
+    #ffffc6,
     var(--p),
     var(--a)
   );
@@ -110,7 +110,7 @@
     border: 3px solid var(--color);
     border-radius: 50px;
     position: absolute;
-    top: 45vh;
+    bottom: -20vh;
     left: 50%;
     transform: translateX(-50%);
 }
