@@ -7,5 +7,5 @@
   --a: #F5E27A;
   --t: #E5E5CB;
 
-  font-family: 'Sora', sans-serif;
+  font-family: 'Sora', sans-serif !important;
 }
