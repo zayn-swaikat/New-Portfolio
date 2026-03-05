@@ -36,11 +36,11 @@
 
   background: linear-gradient(
     120deg,
+    var(--a),
     var(--p),
-    var(--s),
     #E5E5CB,
-    var(--s),
-    var(--p)
+    var(--p),
+    var(--a)
   );
 
   background-size: 200% auto;
@@ -50,7 +50,7 @@
   background-clip: text;
   color: transparent;
 
-  animation: gradientMove 6s linear infinite;
+  animation: gradientMove 10s linear infinite;
 }
 
 @keyframes gradientMove {
