@@ -25,7 +25,7 @@ export default function HowIBuild() {
   ];
 
   return (
-    <section className="how-i-build">
+    <section className="how-i-build" id="process">
       <h2 className="section-title timeline-title">How I Build</h2>
 
       <div className="timeline">

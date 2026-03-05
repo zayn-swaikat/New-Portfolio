@@ -37,7 +37,7 @@ const skills = [
     const tags = ["All", ...new Set(skills.map(skill => skill.tag))];
 
     return (
-        <section className="about" data-aos="fade-up">
+        <section className="about" data-aos="fade-up" id="home">
             <h1>About Me</h1>
 
   <p>
@@ -69,7 +69,7 @@ const skills = [
     I'm constantly learning, constantly building, and constantly improving.
   </p>
 
-            <h2>Technologies I've been working with:</h2>
+            <h2 id="skills">Technologies I've been working with:</h2>
 
             {/* Filter Buttons */}
             <div className="filters">

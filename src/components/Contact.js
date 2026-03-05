@@ -11,7 +11,7 @@ export default function ContactMe() {
   ];
 
   return (
-    <section className="contact-me">
+    <section className="contact-me" id="contact">
       <div className="contact-container">
         <h2 className="section-title">Let's Connect</h2>
         <p className="contact-text">

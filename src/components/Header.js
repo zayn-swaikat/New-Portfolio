@@ -34,13 +34,13 @@ function Header() {
     {open && <div className="overlay" onClick={() => setOpen(false)}></div>}
     <Navbar expand="lg" className={`navbar ${hidden ? "navbar-hidden" : ""}`}>
       <Container>
-        <Navbar.Brand as={Link} to="/">zayn</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">Zayn Swaikat</Navbar.Brand>
 
         <div className='icons-hamburger'>
           <button
             className={`hamburger ${open ? "active" : ""}`}
             onClick={() => setOpen(!open)}
-            aria-label="تبديل قائمة التنقل"
+            aria-label="hamburger switch"
           >
             <span></span>
             <span></span>
@@ -50,9 +50,14 @@ function Header() {
 
         <Navbar.Collapse id="basic-navbar-nav" in={open}>
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/" className='first-link' onClick={() => setOpen(false)}>Home</Nav.Link>
-            <Nav.Link as={Link} to="/skills" onClick={() => setOpen(false)}>Skills</Nav.Link>
-            <Nav.Link as={Link} to="/projects" onClick={() => setOpen(false)}>Projects</Nav.Link>
+            <Nav.Link href="#home" onClick={() => setOpen(false)}>Home</Nav.Link>
+            <Nav.Link href="#skills" onClick={() => setOpen(false)}>Skills</Nav.Link>
+            <Nav.Link href="#projects" onClick={() => setOpen(false)}>Projects</Nav.Link>
+            <Nav.Link href="#process" onClick={() => setOpen(false)}>How I Build</Nav.Link>
+            <Nav.Link href="#contact" onClick={() => setOpen(false)}>Connect</Nav.Link>
+            <Nav.Link href="/Resume.pdf" download="Zayn_Swaikat_Resume.pdf" onClick={() => setOpen(false)}>
+              Download Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
 
