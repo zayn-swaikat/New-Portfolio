@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import '../styles/Header.css';
+import { HiOutlineArrowDownTray } from 'react-icons/hi2';
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -55,9 +56,14 @@ function Header() {
             <Nav.Link href="#projects" onClick={() => setOpen(false)}>Projects</Nav.Link>
             <Nav.Link href="#process" onClick={() => setOpen(false)}>How I Build</Nav.Link>
             <Nav.Link href="#contact" onClick={() => setOpen(false)}>Connect</Nav.Link>
-            <Nav.Link href="/Resume.pdf" download="Zayn_Swaikat_Resume.pdf" onClick={() => setOpen(false)}>
-              Download Resume
-            </Nav.Link>
+<Nav.Link 
+  href="/Resume.pdf" 
+  download="Zayn_Swaikat_Resume.pdf" 
+  onClick={() => setOpen(false)} 
+  className="resume-link"
+>
+  Download Resume <HiOutlineArrowDownTray style={{ marginLeft: '0.3rem', marginBottom: '0.2rem' }} />
+</Nav.Link>
           </Nav>
         </Navbar.Collapse>
 

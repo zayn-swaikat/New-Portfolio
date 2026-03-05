@@ -19,7 +19,7 @@
 }
 
 .navbar .navbar-brand {
-  color: var(--t);
+  color: var(--p);
   font-weight: 700;
   font-size: 1.5rem;
   margin-right: 0;
@@ -49,6 +49,10 @@
   font-weight: 500;
   transition: color 0.3s ease, transform 0.2s ease;
   font-size: 1.1rem;
+}
+
+.navbar .resume-link {
+  color: var(--a) !important;
 }
 
 .navbar .nav-link:hover {
@@ -157,15 +161,6 @@
   justify-content: start;
 }
 
-.navbar .user-icon {
-  margin-left: 0.5rem;
-}
-
-.logout {
-  background-color: var(--bg) !important;
-  color: var(--p) !important;
-}
-
 @media (min-width: 992px) {
     .hamburger {
         display: none;
@@ -185,14 +180,5 @@
 
   .icons-hamburger {
     margin-left: 1rem;
-  }
-
-  .navbar .login-link, 
-  .navbar .signup-link {
-    margin: 0 0.5rem;
-    padding: 0 2rem !important;
-    align-items: center;
-    justify-content: center;
-    display: flex;
   }
 }

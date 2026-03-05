@@ -2,6 +2,8 @@ import '../styles/Hero.css'
 import { useRef } from "react";
 import Beams from "./Beams";
 import DecryptedText from "./DecryptedText";
+import { HiOutlineArrowDownTray } from 'react-icons/hi2';
+import { FiMessageSquare } from 'react-icons/fi';
 
 export default function Hero() {
   const scrollRef = useRef(null);
@@ -46,10 +48,10 @@ export default function Hero() {
 
         <div className="btns">
           <a className="btn-p" href="/Resume.pdf" download="Zayn_Swaikat_Resume.pdf">
-            Download My Resume
+            Download My Resume <HiOutlineArrowDownTray style={{ marginLeft: '0.3rem', marginBottom: '0.2rem' }} />
           </a>
           <a className="btn-s" href="mailto:zeinsoykat@gmail.com">
-            Get In Touch
+            Get In Touch <FiMessageSquare style={{ marginLeft: '0.3rem' }} />
           </a>
         </div>
 
