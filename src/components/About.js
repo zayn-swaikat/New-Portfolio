@@ -59,14 +59,14 @@ const skills = [
     until everything clicks.
   </p>
 
+  <p class="about-highlight">
+    Once I set a goal, nothing stands in my way.
+  </p>
+
   <p>
     My long-term goal is to earn a respected position in a major company
     where I can contribute at a high level and keep pushing my limits.
     I'm constantly learning, constantly building, and constantly improving.
-  </p>
-
-  <p class="about-highlight">
-    Once I set a goal, nothing stands in my way.
   </p>
 
             <h2>Technologies I've been working with:</h2>

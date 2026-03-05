@@ -1,0 +1,51 @@
+.how-i-build {
+  padding: 4rem 1.5rem;
+  padding-left: 2.5rem;
+  background: linear-gradient(180deg, var(--bg), var(--bgs));
+  color: var(--t);
+}
+
+.timeline-title {
+    margin-left: 0rem;
+}
+
+.timeline {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 0.15rem;
+  border-left: 3px solid var(--s);
+}
+
+.timeline-step {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -1.25rem;
+  top: 0;
+  background-color: var(--a);
+  color: var(--bg);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: 'Sora', sans-serif;
+  font-size: 1rem;
+}
+
+.timeline-content h3 {
+  color: var(--p);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content p {
+  color: var(--t);
+  line-height: 1.5;
+}
