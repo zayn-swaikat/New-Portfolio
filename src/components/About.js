@@ -37,7 +37,7 @@ const skills = [
     const tags = ["All", ...new Set(skills.map(skill => skill.tag))];
 
     return (
-        <section className="about">
+        <section className="about" data-aos="fade-up">
             <h1>About Me</h1>
 
   <p>
@@ -84,7 +84,7 @@ const skills = [
                 ))}
             </div>
 
-            <ul className="skills">
+            <ul className="skills" data-aos="fade-up">
                 {filteredSkills.map((skill, index) => (
 <li key={index} className="skill-item">
   <div className="skill-left">

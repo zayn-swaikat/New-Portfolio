@@ -30,7 +30,7 @@ export default function HowIBuild() {
 
       <div className="timeline">
         {steps.map((step, index) => (
-          <div key={index} className="timeline-step">
+          <div key={index} className="timeline-step" data-aos="fade-up">
             <div className="timeline-marker">
               <span>{index + 1}</span>
             </div>
