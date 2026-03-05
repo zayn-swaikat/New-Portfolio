@@ -1,6 +1,7 @@
 import '../styles/Hero.css'
 import { useRef } from "react";
 import Beams from "./Beams";
+import DecryptedText from "./DecryptedText";
 
 export default function Hero() {
   const scrollRef = useRef(null);
@@ -25,13 +26,22 @@ export default function Hero() {
         />
       </div>
 
-      {/* المحتوى */}
       <div className="hero-content">
         <div className="hero-text">
           <h3 className="first-line">
             Hey, I'm
           </h3>
-          <h1 className="name">Zayn Swaikat</h1>
+          <h1 className='name'>
+                  <DecryptedText
+          text="Zayn Swaikat"
+          speed={60}
+          sequential
+          revealDirection="start"
+          animateOn="view"
+          className="revealed"
+          encryptedClassName="encrypted"
+        />
+        </h1>
         </div>
 
         <div className="btns">

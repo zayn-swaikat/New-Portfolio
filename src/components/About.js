@@ -40,24 +40,34 @@ const skills = [
         <section className="about">
             <h1>About Me</h1>
 
-            <p>
-                Hey! My name is Zayn, and I'm a web developer focused on building
-                functional and user-friendly digital experiences. I started in 2024
-                exploring HTML and CSS, and since then I’ve been leveling up through
-                real projects and continuous learning.
-            </p>
+  <p>
+    I'm a 19-year-old web developer who believes great products are built where logic meets bold design.
+  </p>
 
-            <p>
-                Today, I build scalable and maintainable web applications using
-                modern technologies and clean development practices.
-            </p>
+  <p>
+    I'm deeply into UI and clean user experiences, not just making things look good,
+    but making them feel right. For me, the real magic happens when powerful logic
+    is paired with a sharp, intentional UI/UX. That's when an idea stops being
+    "just a project" and turns into something memorable.
+  </p>
 
-            <p>
-                I also work as a freelancer, creating responsive websites and
-                interactive React applications. Some recent projects include
-                Fresh Market, Sukoon Medical Center, Little Lemon Restaurant,
-                Sudoku Solver, and Quizzes Site.
-            </p>
+  <p>
+    I mainly build web applications, with a strong focus on portfolios,
+    landing pages, and interactive platforms where users can actually
+    engage and connect. I enjoy turning concepts into structured systems,
+    breaking down ideas, designing the flow, and building them step by step
+    until everything clicks.
+  </p>
+
+  <p>
+    My long-term goal is to earn a respected position in a major company
+    where I can contribute at a high level and keep pushing my limits.
+    I'm constantly learning, constantly building, and constantly improving.
+  </p>
+
+  <p class="about-highlight">
+    Once I set a goal, nothing stands in my way.
+  </p>
 
             <h2>Technologies I've been working with:</h2>
 

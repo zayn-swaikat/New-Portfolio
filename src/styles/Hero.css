@@ -25,7 +25,7 @@
 }
 
 .first-line {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     opacity: 0.8;
     margin-bottom: 1rem;
 }
@@ -90,7 +90,8 @@
 }
 
 .btn-s {
-    background: var(--bgs);
+    background: transparent;
+    border: 1px solid var(--bgs);
     color: var(--t);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
