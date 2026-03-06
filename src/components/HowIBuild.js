@@ -26,6 +26,7 @@ export default function HowIBuild() {
 
   return (
     <section className="how-i-build" id="process">
+      <div className='how-i-build-content'>
       <h2 className="section-title timeline-title">How I Build</h2>
 
       <div className="timeline">
@@ -40,6 +41,7 @@ export default function HowIBuild() {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </section>
   );
