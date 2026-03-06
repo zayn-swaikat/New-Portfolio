@@ -44,6 +44,9 @@ export default function Hero() {
           encryptedClassName="encrypted"
         />
         </h1>
+        <p className='role'>
+          Full-Stack Web Developer
+        </p>
         </div>
 
         <div className="btns">
