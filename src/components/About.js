@@ -23,7 +23,7 @@ const skills = [
   { name: "Vercel Deployment", tag: "Tools", icon: <SiVercel />, color: "#ffffff" },
   { name: "Python", tag: "Backend", icon: <FaPython />, color: "#3776AB" },
   { name: "Django", tag: "Backend", icon: <SiDjango />, color: "#092E20" },
-  { name: "SQL", tag: "Database", icon: <SiMysql />, color: "#4479A1" },
+  { name: "MYSQL", tag: "Database", icon: <SiMysql />, color: "#4479A1" },
   { name: "C++ (OOP)", tag: "Programming", icon: <SiCplusplus />, color: "#00599C" },
   { name: "Java", tag: "Programming", icon: <FaJava />, color: "#ED8B00" }
 ];
