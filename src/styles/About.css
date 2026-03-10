@@ -173,6 +173,11 @@
   color: var(--s);
 }
 
+.skill-tag.database {
+  background: rgba(174, 250, 141, 0.35);
+  color: var(--s);
+}
+
 .skill-left {
   display: flex;
   align-items: center;
