@@ -10,6 +10,7 @@ export default function ProjectCard({
   skills = [],
   github,
   weblink,
+  apk
 }) {
   return (
     <div
@@ -40,6 +41,11 @@ export default function ProjectCard({
         {weblink && (
           <a href={weblink} target="_blank" rel="noopener noreferrer" className="btn-p project-btn">
             Live Demo
+          </a>
+        )}
+        {apk && (
+          <a href={apk} target="_blank" rel="noopener noreferrer" className="btn-p project-btn">
+            Download APK (Android)
           </a>
         )}
       </div>

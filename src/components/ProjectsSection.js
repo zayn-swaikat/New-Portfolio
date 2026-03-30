@@ -6,6 +6,20 @@ import '../styles/ProjectsSection.css';
 export default function ProjectsSection() {
 const projects = [
   {
+    name: "HI Maths",
+    icon: "🧮",
+    cardColor: "#52C8E2",
+    description: "A mobile educational application built with Flutter and Django backend. Features user authentication, student data integration from Google Sheets, personalized dashboards, and structured educational content for high school students. Designed with a clean UI and smooth user experience for daily academic use.",
+    skills: [
+      { name: "Flutter", tag: "mobile" },
+      { name: "Dart", tag: "programming"},
+      { name: "Django", tag: "backend" },
+      { name: "REST API", tag: "backend" },
+    ],
+    github: "https://github.com/zayn-swaikat/",
+    apk: '',
+  },
+  {
     name: "Dawwerha",
     icon: "🛍️",
     cardColor: "#3C2A21",
@@ -13,7 +27,7 @@ const projects = [
     skills: [
       { name: "ReactJS", tag: "frontend" },
       { name: "Django", tag: "backend" },
-      { name: "Django REST Framework", tag: "backend" },
+      { name: "REST API", tag: "backend" },
     ],
     github: "https://github.com/zayn-swaikat/dorha",
     weblink: "https://dawwerha.vercel.app",
@@ -29,6 +43,7 @@ const projects = [
       { name: "HTML5", tag: "frontend" },
       { name: "JavaScript", tag: "frontend" },
       { name: "Django", tag: "backend" },
+      { name: "REST API", tag: "backend" },
     ],
     github: "#",
     weblink: "#",
@@ -44,6 +59,7 @@ const projects = [
       { name: "HTML5", tag: "frontend" },
       { name: "JavaScript", tag: "frontend" },
       { name: "Django", tag: "backend" },
+      { name: "REST API", tag: "backend" },
     ],
     github: "#",
     weblink: "#",
@@ -146,6 +162,7 @@ const projects = [
             skills={proj.skills}
             github={proj.github}
             weblink={proj.weblink}
+            apk={proj.apk}
           />
         ))}
       </div>

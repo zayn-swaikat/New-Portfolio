@@ -151,31 +151,37 @@
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.skill-tag.mobile {
+  background: rgba(0, 200, 83, 0.18); /* fresh green */
+  color: #00C853;
 }
 
 .skill-tag.frontend {
-  background: rgba(232, 211, 74, 0.3);
-  color: var(--p);
+  background: rgba(97, 218, 251, 0.15); /* React vibe */
+  color: #61DAFB;
 }
 
 .skill-tag.backend {
-  background: rgba(206, 142, 109, 0.4);
-  color: var(--p);
+  background: rgba(56, 142, 60, 0.18); /* Django/Backend green */
+  color: #4CAF50;
 }
 
 .skill-tag.programming {
-  background: rgba(245, 226, 122, 0.5);
-  color: var(--t);
+  background: rgba(255, 193, 7, 0.18); /* warm yellow/orange */
+  color: #FFC107;
 }
 
 .skill-tag.tools {
-  background: rgba(237, 207, 155, 0.35);
-  color: var(--s);
+  background: rgba(158, 158, 158, 0.2); /* neutral gray */
+  color: #E0E0E0;
 }
 
 .skill-tag.database {
-  background: rgba(174, 250, 141, 0.35);
-  color: var(--t);
+  background: rgba(68, 121, 161, 0.2); /* MySQL blue */
+  color: #64B5F6;
 }
 
 .skill-left {

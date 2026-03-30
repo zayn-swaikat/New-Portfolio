@@ -9,7 +9,7 @@ import {
   FaGitAlt
 } from "react-icons/fa";
 
-import { SiJavascript, SiDjango, SiCplusplus, SiVercel, SiBootstrap, SiMysql } from "react-icons/si";
+import { SiJavascript, SiDjango, SiCplusplus, SiVercel, SiBootstrap, SiMysql, SiFlutter, SiDart } from "react-icons/si";
 
 export default function About() {
 
@@ -25,7 +25,9 @@ const skills = [
   { name: "Django", tag: "Backend", icon: <SiDjango />, color: "#092E20" },
   { name: "MYSQL", tag: "Database", icon: <SiMysql />, color: "#4479A1" },
   { name: "C++ (OOP)", tag: "Programming", icon: <SiCplusplus />, color: "#00599C" },
-  { name: "Java", tag: "Programming", icon: <FaJava />, color: "#ED8B00" }
+  { name: "Java", tag: "Programming", icon: <FaJava />, color: "#ED8B00" },
+  { name: "Dart", tag: "Programming", icon: <SiDart />, color: "#0175C2" },
+  { name: "Flutter", tag: "Mobile", icon: <SiFlutter />, color: "#02569B" },
 ];
 
     const [activeFilter, setActiveFilter] = useState("All");
@@ -42,40 +44,27 @@ const skills = [
             <h1>About Me</h1>
 
 <p>
-  I'm a 19-year-old web developer and Information Technology student at Latakia University 
-  who believes great products are built where logic meets bold design.
+  I'm a 19-year-old Full-Stack and Flutter developer and an Information Technology student at Latakia University who believes great products are built where logic meets bold design.
 </p>
 
 <p>
-  I'm deeply into UI and clean user experiences, not just making things look good,
-  but making them feel right. For me, the real magic happens when powerful logic
-  is paired with a sharp, intentional UI/UX. That's when an idea stops being
-  "just a project" and turns into something memorable.
+  I focus on building applications that don't just look clean, but feel right to use. For me, real impact comes from combining strong backend logic with intentional UI/UX design.
 </p>
 
 <p>
-  Alongside my university studies, I constantly expand my skills through real-world 
-  projects and professional training. I earned the Meta Front-End Developer 
-  Professional Certificate, where I focused on modern web development with 
-  technologies like React, JavaScript, responsive design, and version control.
+  Alongside my university studies, I continuously improve through real-world projects and professional certifications. I earned the Meta Front-End Developer Professional Certificate and I'm currently advancing my backend and mobile development skills through the Meta Back-End Developer program and IBM's Developing Mobile Apps with Flutter specialization.
 </p>
 
 <p>
-  I mainly build web applications, with a strong focus on portfolios,
-  landing pages, and interactive platforms where users can actually
-  engage and connect. I enjoy turning concepts into structured systems,
-  breaking down ideas, designing the flow, and building them step by step
-  until everything clicks.
+  I build both web and mobile applications, focusing on interactive platforms, scalable systems, and user-centered experiences. I enjoy turning ideas into structured systems, from concept and flow design to full implementation.
 </p>
 
 <p class="about-highlight">
-  Once I set a goal, nothing stands in my way.
+  Once I set a goal, I go all in.
 </p>
 
 <p>
-  My long-term goal is to earn a respected position in a major company
-  where I can contribute at a high level and keep pushing my limits.
-  I'm constantly learning, constantly building, and constantly improving.
+  My long-term goal is to grow into a high-impact developer role in a leading company, where I can build meaningful products and keep pushing my limits.
 </p>
 
 <p>

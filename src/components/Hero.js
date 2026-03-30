@@ -45,7 +45,7 @@ export default function Hero() {
         />
         </h1>
         <p className='role'>
-          Full-Stack Web Developer
+          Full-Stack & Flutter Developer
         </p>
         </div>
 
