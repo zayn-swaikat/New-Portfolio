@@ -1,6 +1,7 @@
 // ProjectCard.jsx
 import React from "react";
 import "../styles/ProjectCard.css";
+import { useTranslation } from 'react-i18next';
 
 export default function ProjectCard({
   name,
@@ -12,6 +13,7 @@ export default function ProjectCard({
   weblink,
   apk
 }) {
+  const { t } = useTranslation();
   return (
     <div
       className="project-card"
@@ -35,17 +37,17 @@ export default function ProjectCard({
       <div className="project-links">
         {github && (
           <a href={github} target="_blank" rel="noopener noreferrer" className="btn-s project-btn">
-            GitHub
+            {t('GitHub')}
           </a>
         )}
         {weblink && (
           <a href={weblink} target="_blank" rel="noopener noreferrer" className="btn-p project-btn">
-            Live Demo
+            {t('LiveDemo')}
           </a>
         )}
         {apk && (
           <a href={apk} target="_blank" rel="noopener noreferrer" className="btn-p project-btn">
-            Download APK (Android)
+            {t('DownloadAPK')}
           </a>
         )}
       </div>

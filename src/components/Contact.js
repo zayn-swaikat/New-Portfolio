@@ -1,21 +1,23 @@
 import '../styles/Contact.css'
 import { FaEnvelope, FaLinkedin, FaWhatsapp, FaInstagram, FaGithub } from 'react-icons/fa'
+import { useTranslation } from 'react-i18next';
 
 export default function ContactMe() {
-  const socialLinks = [
-    { icon: <FaEnvelope />, link: "mailto:zeinsoykat@gmail.com", label: "Email", class: "email" },
-    { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/zayn-swaikat-8b89553a9/", label: "LinkedIn", class: "linkedin" },
-    { icon: <FaWhatsapp />, link: "https://wa.me/963932910742", label: "WhatsApp", class: "whatsapp" },
-    { icon: <FaInstagram />, link: "https://www.instagram.com/zayn_swaikat", label: "Instagram", class: "instagram" },
-    { icon: <FaGithub />, link: "https://github.com/zayn-swaikat", label: "GitHub", class: "github" },
-  ];
+  const { t } = useTranslation();
+const socialLinks = [
+  { icon: <FaEnvelope />, link: "mailto:zeinsoykat@gmail.com", key: "email", className: "email" },
+  { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/zayn-swaikat-8b89553a9/", key: "linkedin", className: "linkedin" },
+  { icon: <FaWhatsapp />, link: "https://wa.me/963932910742", key: "whatsapp", className: "whatsapp" },
+  { icon: <FaInstagram />, link: "https://www.instagram.com/zayn_swaikat", key: "instagram", className: "instagram" },
+  { icon: <FaGithub />, link: "https://github.com/zayn-swaikat", key: "github", className: "github" },
+];
 
   return (
     <section className="contact-me" id="contact">
       <div className="contact-container">
-        <h2 className="section-title">Let's Connect</h2>
+        <h2 className="section-title">{t('contact.title')}</h2>
         <p className="contact-text">
-          Got an idea, a project, or just want to chat? Hit me up!
+          {t('contact.subtitle')}
         </p>
 
         <div className="contact-grid">
@@ -29,7 +31,7 @@ export default function ContactMe() {
               aria-label={item.label}
             >
               <div className="icon-wrapper">{item.icon}</div>
-              <span>{item.label}</span>
+              <span>{t(`contact.links.${item.key}`)}</span>
             </a>
           ))}
         </div>

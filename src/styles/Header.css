@@ -161,6 +161,19 @@
   justify-content: start;
 }
 
+.big-screens {
+  display: none;
+}
+
+.small-screens{
+  display: block;
+}
+
+.first-link {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (min-width: 992px) {
     .hamburger {
         display: none;
@@ -180,5 +193,13 @@
 
   .icons-hamburger {
     margin-left: 1rem;
+  }
+
+  .small-screens {
+    display: none;
+  }
+
+  .big-screens {
+    display: block;
   }
 }

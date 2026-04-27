@@ -6,6 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import { Analytics } from "@vercel/analytics/react"
+import i18n from './i18n.js';
 
 function App() {
   useEffect(() => {

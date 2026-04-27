@@ -21,10 +21,19 @@
   border-left: 3px solid var(--s);
 }
 
+html[lang="ar"] .timeline {
+  border-right: 3px solid var(--s);
+  border-left: none;
+}
+
 .timeline-step {
   position: relative;
   margin-bottom: 3rem;
   padding-left: 2rem;
+}
+
+html[lang="ar"] .timeline-step {
+  padding-right: 2rem;
 }
 
 .timeline-marker {
@@ -42,6 +51,10 @@
   font-weight: bold;
   font-family: 'Sora', sans-serif;
   font-size: 1rem;
+}
+
+html[lang="ar"] .timeline-marker {
+  right: -1.05rem;
 }
 
 .timeline-content h3 {

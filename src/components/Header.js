@@ -5,10 +5,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 import { HiOutlineArrowDownTray } from 'react-icons/hi2';
+import { useTranslation } from 'react-i18next';
+import LanguageToggle from './LanguageToggle';
 
 function Header() {
   const [open, setOpen] = useState(false);
   const [hidden, setHidden] = useState(false);
+
+  const { t } = useTranslation();
 
   useEffect(() => {
   let lastScrollY = window.scrollY;
@@ -35,7 +39,7 @@ function Header() {
     {open && <div className="overlay" onClick={() => setOpen(false)}></div>}
     <Navbar expand="lg" className={`navbar ${hidden ? "navbar-hidden" : ""}`}>
       <Container>
-        <Navbar.Brand as={Link} to="/">Zayn Swaikat</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">{t('zayn')}</Navbar.Brand>
 
         <div className='icons-hamburger'>
           <button
@@ -51,22 +55,22 @@ function Header() {
 
         <Navbar.Collapse id="basic-navbar-nav" in={open}>
           <Nav className="me-auto">
-            <Nav.Link href="#home" onClick={() => setOpen(false)}>Home</Nav.Link>
-            <Nav.Link href="#skills" onClick={() => setOpen(false)}>Skills</Nav.Link>
-            <Nav.Link href="#projects" onClick={() => setOpen(false)}>Projects</Nav.Link>
-            <Nav.Link href="#process" onClick={() => setOpen(false)}>How I Build</Nav.Link>
-            <Nav.Link href="#contact" onClick={() => setOpen(false)}>Connect</Nav.Link>
-<Nav.Link 
-  href="/Resume.pdf" 
-  download="Zayn_Swaikat_Resume.pdf" 
-  onClick={() => setOpen(false)} 
-  className="resume-link"
->
-  Download Resume <HiOutlineArrowDownTray style={{ marginLeft: '0.3rem', marginBottom: '0.2rem' }} />
-</Nav.Link>
+            <Nav.Link href="#home" className='first-link' onClick={() => setOpen(false)}>{t('home')} <LanguageToggle className='small-screens' /> </Nav.Link>
+            <Nav.Link href="#skills" onClick={() => setOpen(false)}>{t('skills')}</Nav.Link>
+            <Nav.Link href="#projects" onClick={() => setOpen(false)}>{t('projects')}</Nav.Link>
+            <Nav.Link href="#process" onClick={() => setOpen(false)}>{t('how')}</Nav.Link>
+            <Nav.Link href="#contact" onClick={() => setOpen(false)}>{t('connect')}</Nav.Link>
+            <Nav.Link 
+              href="/Resume.pdf" 
+              download="Zayn_Swaikat_Resume.pdf" 
+              onClick={() => setOpen(false)} 
+              className="resume-link"
+            >
+              {t('download')} <HiOutlineArrowDownTray style={{ margin: '0 0.3rem', marginBottom: '0.2rem' }} />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-
+        <LanguageToggle className='big-screens' />
       </Container>
     </Navbar>
     </>

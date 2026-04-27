@@ -1,33 +1,19 @@
 import '../styles/HowIBuild.css'
+import { useTranslation } from 'react-i18next';
 
 export default function HowIBuild() {
+  const { t } = useTranslation();
   const steps = [
-    {
-      title: "Understand the Idea",
-      description:
-        "Every project starts with logic. I break ideas down step by step using mind maps and focus on deeply understanding the user before writing a single line of code."
-    },
-    {
-      title: "Design the Flow",
-      description:
-        "I visualize the structure, explore references, and shape UI and UX together. Clarity, hierarchy, and ease of use guide every decision."
-    },
-    {
-      title: "Build Clean Structure",
-      description:
-        "Clean architecture and reusable components matter. I follow the DRY principle and write code that's scalable, maintainable, and collaboration-friendly."
-    },
-    {
-      title: "Refine the Experience",
-      description:
-        "The difference between good and great lives in the details. Micro-interactions, polish, user feedback, and continuous refinement."
-    }
+    { key: "step1" },
+    { key: "step2" },
+    { key: "step3" },
+    { key: "step4" },
   ];
 
   return (
     <section className="how-i-build" id="process">
       <div className='how-i-build-content'>
-      <h2 className="section-title timeline-title">How I Build</h2>
+      <h2 className="section-title timeline-title">{t('how')}</h2>
 
       <div className="timeline">
         {steps.map((step, index) => (
@@ -36,8 +22,8 @@ export default function HowIBuild() {
               <span>{index + 1}</span>
             </div>
             <div className="timeline-content">
-              <h3>{step.title}</h3>
-              <p>{step.description}</p>
+<h3>{t(`howData.${step.key}.title`)}</h3>
+<p>{t(`howData.${step.key}.description`)}</p>
             </div>
           </div>
         ))}

@@ -1,11 +1,13 @@
-// ProjectsSection.jsx
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import '../styles/ProjectsSection.css';
+import { useTranslation } from 'react-i18next';
 
 export default function ProjectsSection() {
+  const { t } = useTranslation();
 const projects = [
   {
+    key: "himaths",
     name: "HI Maths",
     icon: "🧮",
     cardColor: "#52C8E2",
@@ -20,6 +22,7 @@ const projects = [
     apk: '',
   },
   {
+    key: "dawwerha",
     name: "Dawwerha",
     icon: "🛍️",
     cardColor: "#3C2A21",
@@ -33,6 +36,7 @@ const projects = [
     weblink: "https://dawwerha.vercel.app",
   },
   {
+    key: "sukoon",
     name: "Sukoon Medical Center",
     icon: "🏥",
     cardColor: "#3C2A21",
@@ -49,6 +53,7 @@ const projects = [
     weblink: "#",
   },
   {
+    key: "fresh",
     name: "Fresh Market",
     icon: "🛒",
     cardColor: "#3C2A21",
@@ -65,6 +70,7 @@ const projects = [
     weblink: "#",
   },
   {
+    key: "dailyscore",
     name: "Daily Score",
     icon: "📊",
     cardColor: "#3C2A21",
@@ -79,6 +85,7 @@ const projects = [
     weblink: "https://daily-score.vercel.app",
   },
   {
+    key: "barber",
     name: "The Kings Barbers",
     icon: "💈",
     cardColor: "#3C2A21",
@@ -93,6 +100,7 @@ const projects = [
     weblink: "https://zayns-barbershop.vercel.app",
   },
   {
+    key: "code",
     name: "CODE",
     icon: "🧠",
     cardColor: "#3C2A21",
@@ -107,6 +115,7 @@ const projects = [
     weblink: "https://zayns-code-game.vercel.app",
   },
   {
+    key: "sudoku",
     name: "Sudoku Solver",
     icon: "🧩",
     cardColor: "#3C2A21",
@@ -121,6 +130,7 @@ const projects = [
     weblink: "https://zayns-sudoku-solver.vercel.app",
   },
   {
+    key: "coffee",
     name: "Coffeehub",
     icon: "☕",
     cardColor: "#3C2A21",
@@ -134,6 +144,7 @@ const projects = [
     weblink: "coffee-hub-six.vercel.app",
   },
   {
+    key: "weather",
     name: "Weather Scope",
     icon: "🌦️",
     cardColor: "#3C2A21",
@@ -150,15 +161,15 @@ const projects = [
 ];
   return (
     <section className="projects-section" id="projects">
-      <h2 className="section-title">My Projects</h2>
+      <h2 className="section-title">{t('projects')}</h2>
       <div className="projects-grid">
         {projects.map((proj, idx) => (
           <ProjectCard
             key={idx}
-            name={proj.name}
+            name={t(`projectsData.${proj.key}.name`)}
             icon={proj.icon}
             cardColor={proj.cardColor}
-            description={proj.description}
+            description={t(`projectsData.${proj.key}.description`)}
             skills={proj.skills}
             github={proj.github}
             weblink={proj.weblink}

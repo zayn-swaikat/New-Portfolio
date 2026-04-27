@@ -12,6 +12,10 @@
   text-align: left;
 }
 
+html[lang="ar"] .contact-container {
+  text-align: right;
+}
+
 .section-title {
   font-size: 2.5rem;
   margin-bottom: 2rem;

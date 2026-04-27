@@ -4,9 +4,11 @@ import Beams from "./Beams";
 import DecryptedText from "./DecryptedText";
 import { HiOutlineArrowDownTray } from 'react-icons/hi2';
 import { FiMessageSquare } from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
 
 export default function Hero() {
   const scrollRef = useRef(null);
+  const { t } = useTranslation();
 
   const handleScroll = () => {
     scrollRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -31,12 +33,12 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-text">
           <h3 className="first-line">
-            Hey, I'm
+            {t('hey')}
           </h3>
           <h1 className='name'>
-                  <DecryptedText
+          <DecryptedText
           text="Zayn Swaikat"
-          speed={60}
+          speed={100}
           sequential
           revealDirection="start"
           animateOn="view"
@@ -45,16 +47,16 @@ export default function Hero() {
         />
         </h1>
         <p className='role'>
-          Full-Stack & Flutter Developer
+          {t('subtitle')}
         </p>
         </div>
 
         <div className="btns">
           <a className="btn-p" href="/Resume.pdf" download="Zayn_Swaikat_Resume.pdf">
-            Download My Resume <HiOutlineArrowDownTray style={{ marginLeft: '0.3rem', marginBottom: '0.2rem' }} />
+            {t('download')} <HiOutlineArrowDownTray style={{ marginLeft: '0.3rem', marginBottom: '0.2rem' }} />
           </a>
           <a className="btn-s" href="mailto:zeinsoykat@gmail.com">
-            Get In Touch <FiMessageSquare style={{ marginLeft: '0.3rem' }} />
+            {t('touch')} <FiMessageSquare style={{ marginLeft: '0.3rem' }} />
           </a>
         </div>
 
