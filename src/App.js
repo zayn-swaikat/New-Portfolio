@@ -16,6 +16,8 @@ function App() {
     })
   }, [])
 
+  console.log(i18n.language);
+
   return (
     <BrowserRouter>
     <Header />
