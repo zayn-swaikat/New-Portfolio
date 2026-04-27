@@ -132,7 +132,7 @@ contact: {
       projects: 'مشاريعي',
       how: 'كيف اقوم بالتطوير',
       connect: 'تواصل معي',
-      download: 'تنزيل سيرتي الذاتية',
+      download: 'تحميل سيرتي الذاتية',
       hey: 'مرحباً، أنا',
       subtitle: 'مطور Full-Stack و Flutter',
       touch: 'تواصل معي',
