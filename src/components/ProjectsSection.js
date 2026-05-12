@@ -36,6 +36,23 @@ const projects = [
     github: "https://github.com/zayn-swaikat/daily-score",
     weblink: "https://daily-score.vercel.app",
   },
+  {
+    key: "taxi_demand_intelligence",
+    name: "Taxi Demand Intelligence",
+    icon: "🚕",
+    cardColor: "#1E3A8A",
+    description: "A data intelligence dashboard built with Streamlit to analyze taxi demand from WhatsApp request logs. It provides real-time insights including hotspot detection via geospatial heatmaps, hourly and daily demand trends, anomaly detection, and interactive KPIs for operational decision-making.",
+    skills: [
+      { name: "Python", tag: "backend" },
+      { name: "Streamlit", tag: "frontend" },
+      { name: "Pandas", tag: "data" },
+      { name: "Folium", tag: "data-viz" },
+      { name: "Data Analysis", tag: "data" },
+      { name: "Geospatial Analysis", tag: "data" }
+    ],
+    github: "https://github.com/zayn-swaikat/taxi-analysis",
+    weblink: "https://taxi-analysis-frawrkzhsjkyvbcat9eafm.streamlit.app/"
+  },
   // {
   //   key: "chatmock",
   //   name: "ChatMock",
