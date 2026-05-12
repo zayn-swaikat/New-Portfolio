@@ -46,7 +46,7 @@ const projects = [
       { name: "Python", tag: "backend" },
       { name: "Streamlit", tag: "frontend" },
       { name: "Pandas", tag: "data" },
-      { name: "Folium", tag: "data-viz" },
+      { name: "Folium", tag: "data" },
       { name: "Data Analysis", tag: "data" },
       { name: "Geospatial Analysis", tag: "data" }
     ],

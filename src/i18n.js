@@ -95,6 +95,10 @@ projectsData: {
   chatmock: {
     name: "ChatMock",
     description: "A WhatsApp-style chat generator built with React and Vite. Allows creating realistic conversations with customizable messages, sender roles, timestamps, and message statuses, with a phone-like UI and export to image or HTML."
+  },
+  taxi_demand_intelligence: {
+    name: "Taxi Demand Intelligence",
+    description: "A data intelligence dashboard built with Streamlit to analyze taxi demand from WhatsApp request logs. It provides real-time insights including geospatial heatmaps, hourly and daily demand trends, anomaly detection, and interactive KPIs for operational decision-making."
   }
 },
 howData: {
@@ -221,6 +225,10 @@ contact: {
       chatmock: {
         name: "ChatMock",
         description: "مولّد محادثات شبيه بواتساب مبني باستخدام React وVite، يتيح إنشاء محادثات واقعية مع تخصيص الرسائل، المرسل، التوقيت، وحالة الرسالة، مع واجهة تحاكي الهاتف وإمكانية التصدير كصورة أو HTML."
+      },
+      taxi_demand_intelligence: {
+        name: "Taxi Demand Intelligence",
+        description: "لوحة تحليل بيانات ذكية مبنية باستخدام Streamlit لتحليل طلبات سيارات الأجرة من رسائل واتساب. توفر رؤى مباشرة تشمل خرائط حرارية جغرافية، اتجاهات الطلب حسب الساعة واليوم، اكتشاف الشذوذ، ومؤشرات أداء تفاعلية لدعم اتخاذ القرار التشغيلي."
       }
     },
     howData: {

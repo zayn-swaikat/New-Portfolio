@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "../styles/About.css";
-import {FaHtml5,FaCss3Alt,FaReact,FaPython,FaJava,FaGitAlt} from "react-icons/fa";
+import {FaHtml5,FaCss3Alt,FaReact,FaPython,FaJava,FaGitAlt, FaMapMarkedAlt, FaChartLine, FaMap} from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
-import { SiJavascript, SiDjango, SiCplusplus, SiVercel, SiBootstrap, SiMysql, SiFlutter, SiDart } from "react-icons/si";
+import { SiJavascript, SiDjango, SiCplusplus, SiVercel, SiBootstrap, SiMysql, SiFlutter, SiDart, SiStreamlit, SiPandas } from "react-icons/si";
 
 export default function About() {
   const { t } = useTranslation();
@@ -15,6 +15,11 @@ export default function About() {
     { key: "git", tag: "tools", icon: <FaGitAlt />, color: "#F05032" },
     { key: "vercel", tag: "tools", icon: <SiVercel />, color: "#ffffff" },
     { key: "python", tag: "backend", icon: <FaPython />, color: "#3776AB" },
+    { key: "streamlit", tag: "data", icon: <SiStreamlit />, color: "#FF4B4B" },
+    { key: "pandas", tag: "data", icon: <SiPandas />, color: "#150458" },
+    { key: "folium", tag: "data-viz", icon: <FaMapMarkedAlt />, color: "#3B82F6" },
+    { key: "data-analysis", tag: "data", icon: <FaChartLine />, color: "#10B981" },
+    { key: "geospatial", tag: "data-viz", icon: <FaMap />, color: "#22C55E" },
     { key: "django", tag: "backend", icon: <SiDjango />, color: "#092E20" },
     { key: "mysql", tag: "database", icon: <SiMysql />, color: "#4479A1" },
     { key: "cpp", tag: "programming", icon: <SiCplusplus />, color: "#00599C" },
