@@ -37,7 +37,12 @@ const resources = {
         cpp: { name: "C++ (OOP)" },
         java: { name: "Java" },
         dart: { name: "Dart" },
-        flutter: { name: "Flutter" }
+        flutter: { name: "Flutter" },
+        streamlit: { name: "Streamlit" },
+        pandas: { name: "Pandas" },
+        folium: { name: "Folium" },
+        data_analysis: { name: "Data Analysis" },
+        geospatial: { name: "Geospatial Visualization" }
       },
       tags: {
         all: "All",
@@ -46,7 +51,9 @@ const resources = {
         tools: "Tools",
         database: "Database",
         programming: "Programming",
-        mobile: "Mobile"
+        mobile: "Mobile",
+        data: "Data",
+        data_viz: "Data Visualization"
       },
     GitHub: 'GitHub',
     LiveDemo: 'Live Demo',
@@ -167,7 +174,12 @@ contact: {
         cpp: { name: "++C (برمجة كائنية)" },
         java: { name: "Java" },
         dart: { name: "Dart" },
-        flutter: { name: "Flutter" }
+        flutter: { name: "Flutter" },
+        streamlit: { name: "Streamlit" },
+        pandas: { name: "Pandas" },
+        folium: { name: "Folium" },
+        data_analysis: { name: "تحليل البيانات" },
+        geospatial: { name: "تصوير البيانات جغرافياً" }
       },
       tags: {
         all: "الكل",
@@ -176,7 +188,9 @@ contact: {
         tools: "أدوات",
         database: "قواعد البيانات",
         programming: "لغات البرمجة",
-        mobile: "تطوير الموبايل"
+        mobile: "تطوير الموبايل",
+        data: "تحليل البيانات",
+        data_viz: "تصوير البيانات"
     },
     GitHub: 'GitHub',
     LiveDemo: 'عرض مباشر',
