@@ -42,7 +42,14 @@ const resources = {
         pandas: { name: "Pandas" },
         folium: { name: "Folium" },
         data_analysis: { name: "Data Analysis" },
-        geospatial: { name: "Geospatial Visualization" }
+        geospatial: { name: "Geospatial Visualization" },
+        sklearn: { name: "Scikit-learn" },
+        numpy: { name: "NumPy" },
+        recharts: { name: "Recharts" },
+        framer: { name: "Framer Motion" },
+        ml: { name: "Machine Learning" },
+        business_intelligence: { name: "Business Intelligence" },
+        predictive_analytics: { name: "Predictive Analytics" },
       },
       tags: {
         all: "All",
@@ -53,7 +60,8 @@ const resources = {
         programming: "Programming",
         mobile: "Mobile",
         data: "Data",
-        data_viz: "Data Visualization"
+        data_viz: "Data Visualization",
+        ml: "Machine Learning"
       },
     GitHub: 'GitHub',
     LiveDemo: 'Live Demo',
@@ -106,6 +114,10 @@ projectsData: {
   taxi_demand_intelligence: {
     name: "Taxi Demand Intelligence",
     description: "A data intelligence dashboard built with Streamlit to analyze taxi demand from WhatsApp request logs. It provides real-time insights including geospatial heatmaps, hourly and daily demand trends, anomaly detection, and interactive KPIs for operational decision-making."
+  },
+  food_delivery_intelligence: {
+    name: "Food Delivery Intelligence Platform",
+    description: "An end-to-end food delivery intelligence platform built from scratch using Python and React. It delivers operational analytics, customer segmentation, restaurant efficiency scoring, fulfillment tracking, and machine learning-powered delay prediction to support smarter business decisions and performance optimization."
   }
 },
 howData: {
@@ -179,7 +191,14 @@ contact: {
         pandas: { name: "Pandas" },
         folium: { name: "Folium" },
         data_analysis: { name: "تحليل البيانات" },
-        geospatial: { name: "تصوير البيانات جغرافياً" }
+        geospatial: { name: "تصوير البيانات جغرافياً" },
+        numpy: { name: "NumPy" },
+        sklearn: { name: "Scikit-learn" },
+        recharts: { name: "Recharts" },
+        framer: { name: "Framer Motion" },
+        ml: { name: "تعلم الآلة" },
+        business_intelligence: { name: "الذكاء التجاري" },
+        predictive_analytics: { name: "التحليل التنبؤي" },
       },
       tags: {
         all: "الكل",
@@ -190,7 +209,8 @@ contact: {
         programming: "لغات البرمجة",
         mobile: "تطوير الموبايل",
         data: "تحليل البيانات",
-        data_viz: "تصوير البيانات"
+        data_viz: "تصوير البيانات",
+        ml: "تعلم الآلة"
     },
     GitHub: 'GitHub',
     LiveDemo: 'عرض مباشر',
@@ -243,6 +263,11 @@ contact: {
       taxi_demand_intelligence: {
         name: "Taxi Demand Intelligence",
         description: "لوحة تحليل بيانات ذكية مبنية باستخدام Streamlit لتحليل طلبات سيارات الأجرة من رسائل واتساب. توفر رؤى مباشرة تشمل خرائط حرارية جغرافية، اتجاهات الطلب حسب الساعة واليوم، اكتشاف الشذوذ، ومؤشرات أداء تفاعلية لدعم اتخاذ القرار التشغيلي."
+      },
+      food_delivery_intelligence: {
+        name: "Food Delivery Intelligence Platform",
+        description:
+          "منصة ذكاء وتحليلات متقدمة لخدمات توصيل الطعام، مبنية من الصفر باستخدام Python و React. توفر تحليلات تشغيلية، تقسيم العملاء، تقييم كفاءة المطاعم، تتبع أوقات التحضير والتوصيل، ونظام تنبؤ ذكي للتأخير باستخدام تعلم الآلة لدعم اتخاذ القرار وتحسين الأداء."
       }
     },
     howData: {

@@ -53,6 +53,36 @@ const projects = [
     github: "https://github.com/zayn-swaikat/taxi-analysis",
     weblink: "https://taxi-analysis-frawrkzhsjkyvbcat9eafm.streamlit.app/"
   },
+  {
+    key: "food_delivery_intelligence",
+    name: "Food Delivery Intelligence Platform",
+    icon: "🍔",
+    cardColor: "#EA580C",
+
+  description:
+    "A predictive analytics and business intelligence platform for food delivery operations, featuring customer segmentation, restaurant efficiency scoring, fulfillment analytics, and machine learning-based delivery risk prediction.",
+
+    skills: [
+      { name: "Python", tag: "backend" },
+      { name: "React", tag: "frontend" },
+      { name: "JavaScript", tag: "frontend" },
+      { name: "Pandas", tag: "data" },
+      { name: "NumPy", tag: "data" },
+      { name: "Scikit-learn", tag: "ml" },
+      { name: "Recharts", tag: "frontend" },
+      { name: "Framer Motion", tag: "frontend" },
+      { name: "Tailwind CSS", tag: "frontend" },
+      { name: "Data Analysis", tag: "data" },
+      { name: "Business Intelligence", tag: "data" },
+      { name: "Machine Learning", tag: "ml" },
+      { name: "Predictive Analytics", tag: "ml" },
+      { name: "Dashboard Design", tag: "frontend" }
+    ],
+
+    github: "https://github.com/zayn-swaikat/Restaurants",
+
+    weblink: "https://zayns-restaurants-analysis.vercel.app/"
+  },
   // {
   //   key: "chatmock",
   //   name: "ChatMock",

@@ -97,9 +97,29 @@
 }
 
 .project-skills {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+
+  grid-auto-flow: column;
+  grid-template-rows: auto;
+
   gap: 0.5rem;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  padding-bottom: 0.25rem;
+
+}
+
+.project-skills::-webkit-scrollbar {
+  height: 4px !important;
+  margin-top: 2px !important;
+}
+
+.project-skills::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2) !important;
+  border-radius: 999px !important;
+  margin-top: 2px !important;
 }
 
 .skill-tag {

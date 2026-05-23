@@ -1,8 +1,10 @@
 import { useState } from "react";
 import "../styles/About.css";
-import {FaHtml5,FaCss3Alt,FaReact,FaPython,FaJava,FaGitAlt, FaMapMarkedAlt, FaChartLine, FaMap} from "react-icons/fa";
+import {FaHtml5,FaCss3Alt,FaReact,FaPython,FaJava,FaGitAlt, FaMapMarkedAlt, FaChartLine, FaMap, FaChartBar, FaBrain} from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
-import { SiJavascript, SiDjango, SiCplusplus, SiVercel, SiBootstrap, SiMysql, SiFlutter, SiDart, SiStreamlit, SiPandas } from "react-icons/si";
+import { SiJavascript, SiDjango, SiCplusplus, SiVercel, SiBootstrap, SiMysql, SiFlutter, SiDart, SiStreamlit, SiPandas, SiNumpy, SiFramer, SiBraintree } from "react-icons/si";
+import { MdInsights } from "react-icons/md";
+import { TbChartArcs } from "react-icons/tb";
 
 export default function About() {
   const { t } = useTranslation();
@@ -26,6 +28,19 @@ export default function About() {
     { key: "java", tag: "programming", icon: <FaJava />, color: "#ED8B00" },
     { key: "dart", tag: "programming", icon: <SiDart />, color: "#0175C2" },
     { key: "flutter", tag: "mobile", icon: <SiFlutter />, color: "#02569B" },
+    { key: "numpy", tag: "data", icon: <SiNumpy />, color: "#013243" },
+
+    { key: "sklearn", tag: "ml", icon: <SiBraintree />, color: "#F7931E" },
+
+    { key: "recharts", tag: "frontend", icon: <FaChartBar />, color: "#22C55E" },
+
+    { key: "framer", tag: "frontend", icon: <SiFramer />, color: "#0055FF" },
+
+    { key: "ml", tag: "ml", icon: <FaBrain />, color: "#8B5CF6" },
+
+    { key: "business_intelligence", tag: "data", icon: <MdInsights />, color: "#F59E0B" },
+
+    { key: "predictive_analytics", tag: "ml", icon: <TbChartArcs />, color: "#EF4444" },
   ];
 
   const [activeFilter, setActiveFilter] = useState("All");
