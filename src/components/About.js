@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "../styles/About.css";
-import {FaHtml5,FaCss3Alt,FaReact,FaPython,FaJava,FaGitAlt, FaMapMarkedAlt, FaChartLine, FaMap, FaChartBar, FaBrain} from "react-icons/fa";
+import {FaHtml5,FaCss3Alt,FaReact,FaPython,FaJava,FaGitAlt,  FaChartLine,  FaChartBar} from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
-import { SiJavascript, SiDjango, SiCplusplus, SiVercel, SiBootstrap, SiMysql, SiFlutter, SiDart, SiStreamlit, SiPandas, SiNumpy, SiFramer, SiBraintree } from "react-icons/si";
-import { MdInsights } from "react-icons/md";
-import { TbChartArcs } from "react-icons/tb";
+import { SiJavascript, SiDjango, SiCplusplus, SiVercel, SiBootstrap, SiMysql,  SiStreamlit,  SiFramer } from "react-icons/si";
+// import { MdInsights } from "react-icons/md";
+// import { TbChartArcs } from "react-icons/tb";
 
 export default function About() {
   const { t } = useTranslation();
@@ -18,29 +18,29 @@ export default function About() {
     { key: "vercel", tag: "tools", icon: <SiVercel />, color: "#ffffff" },
     { key: "python", tag: "backend", icon: <FaPython />, color: "#3776AB" },
     { key: "streamlit", tag: "data", icon: <SiStreamlit />, color: "#FF4B4B" },
-    { key: "pandas", tag: "data", icon: <SiPandas />, color: "#150458" },
-    { key: "folium", tag: "data_viz", icon: <FaMapMarkedAlt />, color: "#3B82F6" },
+    // { key: "pandas", tag: "data", icon: <SiPandas />, color: "#150458" },
+    // { key: "folium", tag: "data_viz", icon: <FaMapMarkedAlt />, color: "#3B82F6" },
     { key: "data_analysis", tag: "data", icon: <FaChartLine />, color: "#10B981" },
-    { key: "geospatial", tag: "data_viz", icon: <FaMap />, color: "#22C55E" },
+    // { key: "geospatial", tag: "data_viz", icon: <FaMap />, color: "#22C55E" },
     { key: "django", tag: "backend", icon: <SiDjango />, color: "#092E20" },
     { key: "mysql", tag: "database", icon: <SiMysql />, color: "#4479A1" },
     { key: "cpp", tag: "programming", icon: <SiCplusplus />, color: "#00599C" },
     { key: "java", tag: "programming", icon: <FaJava />, color: "#ED8B00" },
-    { key: "dart", tag: "programming", icon: <SiDart />, color: "#0175C2" },
-    { key: "flutter", tag: "mobile", icon: <SiFlutter />, color: "#02569B" },
-    { key: "numpy", tag: "data", icon: <SiNumpy />, color: "#013243" },
+    // { key: "dart", tag: "programming", icon: <SiDart />, color: "#0175C2" },
+    // { key: "flutter", tag: "mobile", icon: <SiFlutter />, color: "#02569B" },
+    // { key: "numpy", tag: "data", icon: <SiNumpy />, color: "#013243" },
 
-    { key: "sklearn", tag: "ml", icon: <SiBraintree />, color: "#F7931E" },
+    // { key: "sklearn", tag: "ml", icon: <SiBraintree />, color: "#F7931E" },
 
     { key: "recharts", tag: "frontend", icon: <FaChartBar />, color: "#22C55E" },
 
     { key: "framer", tag: "frontend", icon: <SiFramer />, color: "#0055FF" },
 
-    { key: "ml", tag: "ml", icon: <FaBrain />, color: "#8B5CF6" },
+    // { key: "ml", tag: "ml", icon: <FaBrain />, color: "#8B5CF6" },
 
-    { key: "business_intelligence", tag: "data", icon: <MdInsights />, color: "#F59E0B" },
+    // { key: "business_intelligence", tag: "data", icon: <MdInsights />, color: "#F59E0B" },
 
-    { key: "predictive_analytics", tag: "ml", icon: <TbChartArcs />, color: "#EF4444" },
+    // { key: "predictive_analytics", tag: "ml", icon: <TbChartArcs />, color: "#EF4444" },
   ];
 
   const [activeFilter, setActiveFilter] = useState("All");
