@@ -11,16 +11,22 @@ const resources = {
       how: 'How I Build',
       connect: 'Connect With Me',
       download: 'Download My Resume',
-      hey: "Hey, I'm",
-      subtitle: 'Full-Stack & Flutter Developer',
-      touch: 'Get In Touch',
-      aboutme: 'About Me',
-      p1: "I'm a 19-year-old Full-Stack and Flutter developer and an Information Technology student at Latakia University who believes great products are built where logic meets bold design.",
-      p2: "I focus on building applications that don't just look clean, but feel right to use. For me, real impact comes from combining strong backend logic with intentional UI/UX design.",
-      p3: "Alongside my university studies, I continuously improve through real-world projects and professional certifications. I earned the Meta Front-End Developer Professional Certificate and I'm currently advancing my backend and mobile development skills through the Meta Back-End Developer program and IBM's Developing Mobile Apps with Flutter specialization.",
-      p4: "I build both web and mobile applications, focusing on interactive platforms, scalable systems, and user-centered experiences. I enjoy turning ideas into structured systems, from concept and flow design to full implementation.",
-      highlight: "Once I set a goal, I go all in.",
-      p5: "My long-term goal is to grow into a high-impact developer role in a leading company, where I can build meaningful products and keep pushing my limits.",
+hey: "Hey, I'm",
+subtitle: "Full-Stack Developer & Data Analyst",
+touch: "Get In Touch",
+aboutme: "About Me",
+
+p1: "I'm a 19-year-old Full-Stack developer and an Information Technology student at Latakia University who believes great products are built where logic meets bold design.",
+
+p2: "I focus on building applications that don't just look clean, but feel right to use. For me, real impact comes from combining strong backend logic with intentional UI/UX design.",
+
+p3: "Alongside my university studies, I continuously improve through real-world projects and professional certifications. I earned the Meta Front-End Developer Professional Certificate and I'm currently advancing my backend development and data analysis skills through the Meta Back-End Developer program and IBM's Data Analysis specialization.",
+
+p4: "I build web applications and work with data analysis, focusing on interactive platforms, scalable systems, and user-centered experiences. I enjoy turning ideas into structured systems, from concept and flow design to full implementation.",
+
+highlight: "Once I set a goal, I go all in.",
+
+p5: "My long-term goal is to grow into a high-impact developer role in a leading company, where I can build meaningful products and keep pushing my limits.",
       langs: "Languages: Arabic (Fluent), English (Duolingo English Test: 125), German (B1).",
       techs: "Technologies I've been working with:",
       skillsData: {
@@ -160,16 +166,22 @@ contact: {
       how: 'كيف اقوم بالتطوير',
       connect: 'تواصل معي',
       download: 'تحميل سيرتي الذاتية',
-      hey: 'مرحباً، أنا',
-      subtitle: 'مطور Full-Stack و Flutter',
-      touch: 'تواصل معي',
-      aboutme: 'نبذة عني',
-      p1: "أنا مطور برمجيات متكاملة وتطبيقات Flutter أبلغ من العمر 19 عاماً، وطالب في تخصص الهندسة المعلوماتية في جامعة اللاذقية، أؤمن بأن أفضل المنتجات تُبنى عند التقاء المنطق مع التصميم الجريء.",
-      p2: "أركّز على تطوير تطبيقات لا تبدو أنيقة فحسب، بل تمنح المستخدم تجربة استخدام سلسة ومريحة. بالنسبة لي، التأثير الحقيقي يأتي من الدمج بين منطق خلفي قوي وتصميم واجهات وتجربة مستخدم مدروسة بعناية.",
-      p3: "إلى جانب دراستي الجامعية، أعمل باستمرار على تطوير مهاراتي من خلال المشاريع الواقعية والشهادات الاحترافية. حصلت على شهادة Meta الاحترافية في تطوير الواجهات الأمامية، وأعمل حاليًا على تعزيز مهاراتي في تطوير الأنظمة الخلفية وتطبيقات الموبايل عبر برنامج Meta لتطوير الـ Back-End وتخصص IBM في تطوير تطبيقات Flutter.",
-      p4: "أطوّر تطبيقات ويب وموبايل، مع التركيز على المنصات التفاعلية، والأنظمة القابلة للتوسع، والتجارب المتمحورة حول المستخدم. أستمتع بتحويل الأفكار إلى أنظمة منظمة، بدءاً من الفكرة وتصميم التدفق، وصولاً إلى التنفيذ الكامل.",
-      highlight: "عندما أضع هدفاً، أكرّس له كل ما لدي.",
-      p5: "هدفي على المدى البعيد هو التطور إلى دور مؤثر في مجال تطوير البرمجيات ضمن شركة رائدة، حيث أتمكن من بناء منتجات ذات قيمة حقيقية والاستمرار في تجاوز حدودي.",
+hey: 'مرحباً، أنا',
+subtitle: 'مطور Full-Stack و محلل بيانات',
+touch: 'تواصل معي',
+aboutme: 'نبذة عني',
+
+p1: "أنا مطور برمجيات متكاملة ومحلل بيانات أبلغ من العمر 19 عاماً، وطالب في تخصص الهندسة المعلوماتية في جامعة اللاذقية، أؤمن بأن أفضل المنتجات تُبنى عند التقاء المنطق مع التصميم الجريء.",
+
+p2: "أركّز على تطوير تطبيقات لا تبدو أنيقة فحسب، بل تمنح المستخدم تجربة استخدام سلسة ومريحة. بالنسبة لي، التأثير الحقيقي يأتي من الدمج بين منطق خلفي قوي وتحليل بيانات يساعد على اتخاذ قرارات أفضل، إضافة إلى تصميم واجهات وتجربة مستخدم مدروسة بعناية.",
+
+p3: "إلى جانب دراستي الجامعية، أعمل باستمرار على تطوير مهاراتي من خلال المشاريع الواقعية والشهادات الاحترافية. حصلت على شهادة Meta الاحترافية في تطوير الواجهات الأمامية، وأعمل حاليًا على تعزيز مهاراتي في تطوير الأنظمة الخلفية وتحليل البيانات عبر برنامج Meta لتطوير الـ Back-End وتخصص IBM في تحليل البيانات.",
+
+p4: "أطوّر تطبيقات ويب وأعمل على تحليل البيانات، مع التركيز على المنصات التفاعلية، والأنظمة القابلة للتوسع، والتجارب المتمحورة حول المستخدم. أستمتع بتحويل الأفكار إلى أنظمة منظمة، بدءاً من الفكرة وتصميم التدفق، وصولاً إلى التنفيذ الكامل.",
+
+highlight: "عندما أضع هدفاً، أكرّس له كل ما لدي.",
+
+p5: "هدفي على المدى البعيد هو التطور إلى دور مؤثر في مجال تطوير البرمجيات وتحليل البيانات ضمن شركة رائدة، حيث أتمكن من بناء منتجات ذات قيمة حقيقية والاستمرار في تجاوز حدودي.",
       langs: "اللغات: العربية (متحدث أصلي)، الإنجليزية: بطلاقة C1 (اختبار Duolingo: 125)، الألمانية (B1).",
       techs: "التقنيات التي أعمل بها:",
       skillsData: {

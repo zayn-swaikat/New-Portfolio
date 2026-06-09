@@ -38,7 +38,7 @@
     120deg,
     var(--a),
     var(--p),
-    #ffffc6,
+    #D6DAFF,
     var(--p),
     var(--a)
   );
@@ -145,7 +145,7 @@
     border-radius: 100%;
     animation: scrolldown-anim 2s infinite;
     box-sizing: border-box;
-    box-shadow: 0px -5px 3px 1px #706b2a66;
+    box-shadow: 0px -5px 3px 1px #5227FF66;
 }
 
 @keyframes scrolldown-anim {

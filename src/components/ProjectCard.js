@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 export default function ProjectCard({
   name,
   icon,
-  cardColor = "#3C2A21",
+  cardColor = "#1A1B3A",
   description,
   skills = [],
   github,

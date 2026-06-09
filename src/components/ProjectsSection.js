@@ -25,7 +25,7 @@ const projects = [
     key: "dailyscore",
     name: "Daily Score",
     icon: "📊",
-    cardColor: "#3C2A21",
+    cardColor: "#1A1B3A",
     description: "Track daily wellbeing and finances with this local-first React app. Features mood, nutrition, hydration, satisfaction, and behavior tracking, plus CSV export and intuitive dashboards with weekly and monthly trends.",
     skills: [
       { name: "ReactJS", tag: "frontend" },
@@ -103,7 +103,7 @@ const projects = [
     key: "dawwerha",
     name: "Dawwerha",
     icon: "🛍️",
-    cardColor: "#3C2A21",
+    cardColor: "#1A1B3A",
     description: "A full-stack marketplace platform built with React and Django REST Framework. Features secure JWT authentication, image uploads, protected routes, admin moderation, and a responsive RTL Arabic interface. Deployed on Vercel and Render for a polished user experience.",
     skills: [
       { name: "ReactJS", tag: "frontend" },
@@ -117,7 +117,7 @@ const projects = [
     key: "sukoon",
     name: "Sukoon Medical Center",
     icon: "🏥",
-    cardColor: "#3C2A21",
+    cardColor: "#1A1B3A",
     description: "A comprehensive medical platform built with React and Django. Manages patient, doctor, and HR accounts, appointments, doctor evaluations, and delivers a clean, professional UI for both patients and staff.",
     skills: [
       { name: "ReactJS", tag: "frontend" },
@@ -134,7 +134,7 @@ const projects = [
     key: "fresh",
     name: "Fresh Market",
     icon: "🛒",
-    cardColor: "#3C2A21",
+    cardColor: "#1A1B3A",
     description: "A full-stack e-commerce platform built with React and Django. Supports product management, order handling, user accounts, and a fully responsive interface for seamless shopping.",
     skills: [
       { name: "ReactJS", tag: "frontend" },
@@ -151,7 +151,7 @@ const projects = [
     key: "barber",
     name: "The Kings Barbers",
     icon: "💈",
-    cardColor: "#3C2A21",
+    cardColor: "#1A1B3A",
     description: "A modern barbershop website built with React. Highlights services, smooth navigation, and brand identity with easy WhatsApp contact and booking access.",
     skills: [
       { name: "ReactJS", tag: "frontend" },
@@ -166,7 +166,7 @@ const projects = [
     key: "code",
     name: "CODE",
     icon: "🧠",
-    cardColor: "#3C2A21",
+    cardColor: "#1A1B3A",
     description: "A React-based number guessing game inspired by Mastermind. Includes bot opponent mode, feedback for correct digits, sound effects, confetti celebrations, and a visual history of guesses.",
     skills: [
       { name: "ReactJS", tag: "frontend" },
@@ -181,7 +181,7 @@ const projects = [
     key: "sudoku",
     name: "Sudoku Solver",
     icon: "🧩",
-    cardColor: "#3C2A21",
+    cardColor: "#1A1B3A",
     description: "Solve Sudoku puzzles instantly with this React web app using a backtracking algorithm. Designed with an intuitive and clean UI for seamless interaction.",
     skills: [
       { name: "ReactJS", tag: "frontend" },
@@ -196,7 +196,7 @@ const projects = [
     key: "coffee",
     name: "Coffeehub",
     icon: "☕",
-    cardColor: "#3C2A21",
+    cardColor: "#1A1B3A",
     description: "A responsive React SPA showcasing a coffee shop website. Features animated hero, menu carousel, interactive map, and feedback pages for a polished, engaging UI.",
     skills: [
       { name: "ReactJS", tag: "frontend" },
@@ -210,7 +210,7 @@ const projects = [
     key: "weather",
     name: "Weather Scope",
     icon: "🌦️",
-    cardColor: "#3C2A21",
+    cardColor: "#1A1B3A",
     description: "A lightweight React app providing local weather forecasts, alerts, and news. Uses modular components, responsive layouts, and local JSON data for a fast, clean experience.",
     skills: [
       { name: "ReactJS", tag: "frontend" },
