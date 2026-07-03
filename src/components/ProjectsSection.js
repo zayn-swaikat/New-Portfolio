@@ -6,20 +6,36 @@ import { useTranslation } from 'react-i18next';
 export default function ProjectsSection() {
   const { t } = useTranslation();
 const projects = [
+  // {
+  //   key: "himaths",
+  //   name: "HI Maths",
+  //   icon: "🧮",
+  //   cardColor: "#52C8E2",
+  //   description: "A mobile educational application built with Flutter and Django backend. Features user authentication, student data integration from Google Sheets, personalized dashboards, and structured educational content for high school students. Designed with a clean UI and smooth user experience for daily academic use.",
+  //   skills: [
+  //     { name: "Flutter", tag: "mobile" },
+  //     { name: "Dart", tag: "programming"},
+  //     { name: "Django", tag: "backend" },
+  //     { name: "REST API", tag: "backend" },
+  //   ],
+  //   github: "https://github.com/zayn-swaikat/",
+  //   apk: '',
+  // },
   {
-    key: "himaths",
-    name: "HI Maths",
-    icon: "🧮",
-    cardColor: "#52C8E2",
-    description: "A mobile educational application built with Flutter and Django backend. Features user authentication, student data integration from Google Sheets, personalized dashboards, and structured educational content for high school students. Designed with a clean UI and smooth user experience for daily academic use.",
+    key: "mediterraneo",
+    name: "Mediterraneo Restaurant",
+    icon: "🌊",
+    cardColor: "#12232a",
+    description: "A premium, minimalist Mediterranean restaurant website built with React and Vite. Features interactive scroll transitions, a fluid animated menu, and high-end visual galleries.",
     skills: [
-      { name: "Flutter", tag: "mobile" },
-      { name: "Dart", tag: "programming"},
-      { name: "Django", tag: "backend" },
-      { name: "REST API", tag: "backend" },
+      { name: "ReactJS", tag: "frontend" },
+      { name: "Vite", tag: "frontend" },
+      { name: "Framer Motion", tag: "frontend" },
+      { name: "CSS3", tag: "frontend" },
+      { name: "SwiperJS", tag: "frontend" },
     ],
-    github: "https://github.com/zayn-swaikat/",
-    apk: '',
+    github: "https://github.com/zayn-swaikat/mediterraneo",
+    weblink: "https://mediterraneorestaurant.vercel.app",
   },
   {
     key: "dailyscore",

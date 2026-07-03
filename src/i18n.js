@@ -97,6 +97,10 @@ projectsData: {
     name: "The Kings Barbers",
     description: "A modern barbershop website built with React. Highlights services, smooth navigation, and brand identity with easy WhatsApp contact and booking access."
   },
+mediterraneo: {
+  name: "Mediterraneo Restaurant",
+  description: "A premium, minimalist Mediterranean restaurant website built with React and Vite. Features interactive scroll transitions, a fluid animated menu, and high-end visual galleries."
+},
   code: {
     name: "CODE",
     description: "A React-based number guessing game inspired by Mastermind. Includes bot opponent mode, feedback for correct digits, sound effects, confetti celebrations, and a visual history of guesses."
@@ -236,6 +240,10 @@ p5: "هدفي على المدى البعيد هو التطور إلى دور م�
         name: "دوّرها",
         description: "منصة سوق إلكتروني متكاملة مبنية باستخدام React وDjango REST Framework. تتضمن مصادقة آمنة عبر JWT، رفع صور، حماية للمسارات، نظام إشراف إداري، وواجهة عربية متجاوبة تدعم RTL."
       },
+    mediterraneo: {
+  name: "مطعم مديترانيو",
+  description: "موقع فاخر وعصري لمطعم متوسطي مبني باستخدام React و Vite. يتميز بانتقالات حركية تفاعلية، قائمة طعام متحركة بسلاسة، ومعارض بصرية عالية الجودة."
+},
       sukoon: {
         name: "مركز سكون الطبي",
         description: "منصة طبية متكاملة مبنية باستخدام React وDjango، لإدارة حسابات المرضى والأطباء والموارد البشرية، مع نظام مواعيد وتقييم للأطباء وواجهة احترافية وسهلة الاستخدام."
